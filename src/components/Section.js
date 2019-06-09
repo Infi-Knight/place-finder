@@ -1,11 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
-import Waves from './Wave'
 
 const SectionGroup = styled.div`
   background-image: url(${props => props.image});
-  height: 90vh;
+  height: 100vh;
   background-blend-mode: saturation;
   background-size: cover;
   display: grid;
