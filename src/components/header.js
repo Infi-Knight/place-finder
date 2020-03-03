@@ -35,9 +35,8 @@ class Header extends React.Component {
         className={this.state.hasScrolled ? 'Header HeaderScroll' : 'Header'}
       >
         <div className="HeaderGroup">
-          <Link to="/">Place finder</Link>
-          <a href="https://precily.com">
-            <button>Precily</button>
+          <a href="https://placefinder1.netlify.com/">
+            <button>Place finder</button>
           </a>
         </div>
       </div>
